@@ -399,7 +399,11 @@ class Suite:
             )
             jsonclazz.parent.mkdir(parents=True, exist_ok=True)
             cmd = ["jvm2json", f"-s{clazz}"]
-            encoding = json.loads(run_cmd(cmd, timeout=None, logger=self.logger)[0])
+            res, _ = run_cmd(cmd, timeout=None, logger=self.logger)
+            if not res:
+                self.logger.warning(f"jvm2json: {res}")
+            self.logger.info(res)
+            encoding = json.loads(res)
             with open(jsonclazz, "w") as f:
                 json.dump(encoding, f, indent=2, sort_keys=True)
         self.logger.success("Done decompiling classfiles")

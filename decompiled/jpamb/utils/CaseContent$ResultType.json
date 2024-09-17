@@ -242,15 +242,6 @@
     },
     {
       "access": [
-        "static",
-        "synthetic"
-      ],
-      "class": "jpamb/utils/CaseContent$1",
-      "name": null,
-      "outer": null
-    },
-    {
-      "access": [
         "public",
         "static",
         "final"
@@ -442,7 +433,11 @@
       "name": "valueOf",
       "params": [
         {
+          "access": [
+            "mandated"
+          ],
           "annotations": [],
+          "name": null,
           "type": {
             "annotations": [],
             "args": [],
@@ -538,7 +533,11 @@
       "name": "<init>",
       "params": [
         {
+          "access": [
+            "synthetic"
+          ],
           "annotations": [],
+          "name": null,
           "type": {
             "annotations": [],
             "args": [],
@@ -549,7 +548,11 @@
           "visible": false
         },
         {
+          "access": [
+            "synthetic"
+          ],
           "annotations": [],
+          "name": null,
           "type": {
             "annotations": [],
             "base": "int"
@@ -1099,21 +1102,8 @@
         "annotations": [],
         "bytecode": [
           {
-            "field": {
-              "class": "jpamb/utils/CaseContent$1",
-              "name": "$SwitchMap$jpamb$utils$CaseContent$ResultType",
-              "type": {
-                "kind": "array",
-                "type": "int"
-              }
-            },
-            "offset": 0,
-            "opr": "get",
-            "static": true
-          },
-          {
             "index": 0,
-            "offset": 3,
+            "offset": 0,
             "opr": "load",
             "type": "ref"
           },
@@ -1128,30 +1118,25 @@
               },
               "returns": "int"
             },
-            "offset": 4,
+            "offset": 1,
             "opr": "invoke"
           },
           {
-            "offset": 7,
-            "opr": "array_load",
-            "type": "int"
-          },
-          {
-            "default": 17,
-            "low": 1,
-            "offset": 8,
+            "default": 15,
+            "low": 0,
+            "offset": 4,
             "opr": "tableswitch",
             "targets": [
+              3,
               5,
-              7,
-              9,
-              11,
               13,
-              15
+              11,
+              9,
+              7
             ]
           },
           {
-            "offset": 48,
+            "offset": 44,
             "opr": "push",
             "value": {
               "type": "string",
@@ -1159,12 +1144,12 @@
             }
           },
           {
-            "offset": 50,
+            "offset": 46,
             "opr": "return",
             "type": "ref"
           },
           {
-            "offset": 51,
+            "offset": 47,
             "opr": "push",
             "value": {
               "type": "string",
@@ -1172,12 +1157,12 @@
             }
           },
           {
-            "offset": 53,
+            "offset": 49,
             "opr": "return",
             "type": "ref"
           },
           {
-            "offset": 54,
+            "offset": 50,
             "opr": "push",
             "value": {
               "type": "string",
@@ -1185,12 +1170,12 @@
             }
           },
           {
-            "offset": 56,
+            "offset": 52,
             "opr": "return",
             "type": "ref"
           },
           {
-            "offset": 57,
+            "offset": 53,
             "opr": "push",
             "value": {
               "type": "string",
@@ -1198,12 +1183,12 @@
             }
           },
           {
-            "offset": 59,
+            "offset": 55,
             "opr": "return",
             "type": "ref"
           },
           {
-            "offset": 60,
+            "offset": 56,
             "opr": "push",
             "value": {
               "type": "string",
@@ -1211,12 +1196,12 @@
             }
           },
           {
-            "offset": 62,
+            "offset": 58,
             "opr": "return",
             "type": "ref"
           },
           {
-            "offset": 63,
+            "offset": 59,
             "opr": "push",
             "value": {
               "type": "string",
@@ -1224,22 +1209,22 @@
             }
           },
           {
-            "offset": 65,
+            "offset": 61,
             "opr": "return",
             "type": "ref"
           },
           {
             "class": "java/lang/RuntimeException",
-            "offset": 66,
+            "offset": 62,
             "opr": "new"
           },
           {
-            "offset": 69,
+            "offset": 65,
             "opr": "dup",
             "words": 1
           },
           {
-            "offset": 70,
+            "offset": 66,
             "opr": "push",
             "value": {
               "type": "string",
@@ -1263,11 +1248,11 @@
               },
               "returns": null
             },
-            "offset": 72,
+            "offset": 68,
             "opr": "invoke"
           },
           {
-            "offset": 75,
+            "offset": 71,
             "opr": "throw"
           }
         ],
@@ -1279,36 +1264,40 @@
           },
           {
             "line": 92,
-            "offset": 5
+            "offset": 3
           },
           {
             "line": 94,
-            "offset": 7
+            "offset": 5
           },
           {
             "line": 96,
-            "offset": 9
+            "offset": 7
           },
           {
             "line": 98,
-            "offset": 11
+            "offset": 9
           },
           {
             "line": 100,
-            "offset": 13
+            "offset": 11
           },
           {
             "line": 102,
-            "offset": 15
+            "offset": 13
           },
           {
             "line": 104,
-            "offset": 17
+            "offset": 15
           }
         ],
         "max_locals": 1,
         "max_stack": 3,
         "stack_map": [
+          {
+            "index": 3,
+            "type": "same"
+          },
           {
             "index": 5,
             "type": "same"
@@ -1331,10 +1320,6 @@
           },
           {
             "index": 15,
-            "type": "same"
-          },
-          {
-            "index": 17,
             "type": "same"
           }
         ]

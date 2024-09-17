@@ -488,15 +488,6 @@
     },
     {
       "access": [
-        "static",
-        "synthetic"
-      ],
-      "class": "jpamb/utils/CaseContent$1",
-      "name": null,
-      "outer": null
-    },
-    {
-      "access": [
         "public",
         "static",
         "final"

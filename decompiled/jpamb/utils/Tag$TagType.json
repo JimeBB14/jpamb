@@ -393,7 +393,11 @@
       "name": "valueOf",
       "params": [
         {
+          "access": [
+            "mandated"
+          ],
           "annotations": [],
+          "name": null,
           "type": {
             "annotations": [],
             "args": [],
@@ -489,7 +493,11 @@
       "name": "<init>",
       "params": [
         {
+          "access": [
+            "synthetic"
+          ],
           "annotations": [],
+          "name": null,
           "type": {
             "annotations": [],
             "args": [],
@@ -500,7 +508,11 @@
           "visible": false
         },
         {
+          "access": [
+            "synthetic"
+          ],
           "annotations": [],
+          "name": null,
           "type": {
             "annotations": [],
             "base": "int"

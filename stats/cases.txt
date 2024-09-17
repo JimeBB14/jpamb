@@ -8,6 +8,8 @@ jpamb.cases.Arrays.arraySometimesNull:(I)V                   (0) -> out of bound
 jpamb.cases.Arrays.arraySometimesNull:(I)V                   (11) -> null pointer
 jpamb.cases.Arrays.binarySearch:(I)V                         (3) -> ok
 jpamb.cases.Arrays.binarySearch:(I)V                         (6) -> assertion error
+jpamb.cases.Calls.allPrimesArePositive:(I)V                  (-1) -> assertion error
+jpamb.cases.Calls.allPrimesArePositive:(I)V                  (0) -> out of bounds
 jpamb.cases.Calls.allPrimesArePositive:(I)V                  (100) -> ok
 jpamb.cases.Calls.callsAssertFalse:()V                       () -> assertion error
 jpamb.cases.Calls.callsAssertFib:(I)V                        (0) -> assertion error
